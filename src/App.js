@@ -1,4 +1,5 @@
 import React from 'react';
+import MemoryCardBack from './MemoryCard.js';
 import './App.css';
 
 const headerStyle = {
@@ -14,6 +15,30 @@ function App() {
         <h2 class="title-name">Memory Game</h2>
         <p class="sub-title">Match cards to win</p>
       </header>
+      <div className="card-group">
+        <MemoryCardBack/>
+        <MemoryCardBack/>
+        <MemoryCardBack/>
+        <MemoryCardBack/>
+      </div>
+      <div className="card-group">
+        <MemoryCardBack/>
+        <MemoryCardBack/>
+        <MemoryCardBack/>
+        <MemoryCardBack/>
+      </div>
+      <div className="card-group">
+        <MemoryCardBack/>
+        <MemoryCardBack/>
+        <MemoryCardBack/>
+        <MemoryCardBack/>
+      </div>
+      <div className="card-group">
+        <MemoryCardBack/>
+        <MemoryCardBack/>
+        <MemoryCardBack/>
+        <MemoryCardBack/>
+      </div>
     </div>
   );
 }

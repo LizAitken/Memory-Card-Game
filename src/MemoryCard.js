@@ -1,12 +1,20 @@
 import React from 'react';
+import './MemoryCard.css';
 
 
-class MemoryCard extends React.Component {
+class MemoryCardBack extends React.Component {
     render() {
       return (
-        <h1>CARD</h1>
+        <div className='MemoryCard'>
+          <div className='MemoryCardInner flipped'>
+            <div idName='MemoryCardBack'>
+              <img src="https://www.digitalcrafts.com/img/DigitalCrafts-Logo-Wrench.png" alt="card"/>
+            <div className='MemoryCardFront'>∆</div> 
+            </div>
+          </div>
+        </div>
       );
     }
 }
 
-export default MemoryCard;
+export default MemoryCardBack;

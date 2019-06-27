@@ -12,8 +12,8 @@ function App() {
     <div className="App">
       <header className="App-header" style={headerStyle}>
         <title>Memory Game</title>
-        <h2 class="title-name">Memory Game</h2>
-        <p class="sub-title">Match cards to win</p>
+        <h2 className="title-name">Memory Game</h2>
+        <p className="sub-title">Match cards to win</p>
       </header>
       <div className="card-group">
         <MemoryCardBack/>

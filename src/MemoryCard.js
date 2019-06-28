@@ -2,19 +2,18 @@ import React from 'react';
 import './MemoryCard.css';
 
 class MemoryCardBack extends React.Component {
-    constructor() {
-      super();
-        this.state = {
-          isFlipped: false
-      };     
-    }
+    // constructor() {
+    //   super();
+    //     this.state = {
+    //       isFlipped: false
+    //   };     
+    // }
 
-    clickHandler() {
-      this.setState({
-        isFlipped: !this.state.isFlipped     
-      });
-      console.log(this.state);
-    };
+    // clickHandler() {
+    //   this.setState({
+    //     isFlipped: !this.state.isFlipped     
+    //   });
+    // };
 
     render() {
       let MemoryCardInnerClass = 'MemoryCardInner';
